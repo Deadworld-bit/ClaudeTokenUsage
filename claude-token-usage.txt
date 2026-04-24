@@ -1,0 +1,14 @@
+------------------------------------------------------------------------
+Session: 627b1a7a-d9d1-4abf-b34e-440a7f11cc5d
+Started: 2026-04-23 15:21:54   Updated: 2026-04-24 13:27:28
+Duration: 22h5m   Model: claude-opus-4-7 (opus pricing)   Turns: 112
+
+                       input       output    cache_read   cache_creation
+  Last turn                1          686       138,196              687
+  Session total          282      150,355     9,973,199          747,182
+
+  Context window:   peak=138,884   final=138,884
+  Cache efficiency: 93.0% of prompt served from cache
+  Estimated cost:   $48.66 session   $0.2794 last turn
+    breakdown: input=$0.0042  output=$11.28  cache_read=$14.96  cache_creation=$22.42
+

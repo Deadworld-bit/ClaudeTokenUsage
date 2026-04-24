@@ -8,7 +8,6 @@
 """
 
 import json
-import os
 import shutil
 import sys
 from pathlib import Path
@@ -67,7 +66,8 @@ def main():
     tmp.replace(settings_path)
 
     verb = "Updated" if removed else "Added"
-    print(f"[OK] {verb} Stop hook in {settings_path}" + (f" (replaced {removed} old entry)" if removed else ""))
+    suffix = f" (replaced {removed} old entry)" if removed else ""
+    print(f"[OK] {verb} Stop hook in {settings_path}{suffix}")
     print()
     print("Next steps:")
     print("  1. In Claude Code, open /hooks once to reload (or restart Claude Code).")
